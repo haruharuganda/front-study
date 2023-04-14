@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+=====================================
+        왼쪽 container
+=====================================
+*/
+
+.left-container {
+  width: 80%;
+  height: 300px;
+
+  float: left;
+}
+
+.user-info {
+  width: 99%;
+  height: 30%;
+
+  padding: 9px;
+}
+
+.user-imgContainer {
+  width: 10%;
+  height: 100%;
+
+  float: left;
+}
+.user-img {
+  width: 100%;
+  height: 100%;
+}
+
+.user-container {
+  width: 90%;
+  height: 100%;
+
+  float: right;
+}
+
+.user-nameAndTime {
+  padding: 0 10px;
+}
+
+.content {
+  close: both;
+
+  padding: 9px;
+}
+/*
+=====================================
+        오른쪽 container
+=====================================
+*/
+
+.right-img {
+  width: 20%;
+  height: 300px;
+
+  float: right;
+}
+.content {
+  padding: 9px;
+}
+.content-img {
+  width: 100%;
+  height: 100%;
+}

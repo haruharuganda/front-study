@@ -1,0 +1,59 @@
+* {
+  width: 100wv;
+  higth: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*======================================================
+                    nav 
+========================================================*/
+#box-shadow {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  padding: 0 30px;
+}
+
+.group-navbar {
+  width: 100%;
+  padding: 11px 270px 11px 0;
+
+  font-size: 15px;
+  line-higth: 30px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+
+  font-family: "Gill Sans", sans-serif;
+}
+
+.group-navbar ul {
+  float: left;
+
+  background-color: basic;
+}
+
+.group-navbar ul > li {
+  display: inline;
+  margin-left: 12px;
+  background-color: basic;
+}
+
+.group-navbar img {
+  width: 20px;
+  margin-bottom: -4px;
+}
+
+.item-group a {
+  color: #03c75a;
+}
+
+.favorite-list {
+  margin-left: 12px;
+}
+
+.favorite-list a {
+  color: black;
+}
