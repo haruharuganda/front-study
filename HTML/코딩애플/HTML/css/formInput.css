@@ -3,11 +3,15 @@
   margin: 0px;
 }
 
+div {
+  box-sizing: border-box;
+}
+
 /* 
-==============================================
-                    main 
-==============================================
-*/
+  ==============================================
+                      main 
+  ==============================================
+  */
 .main-background {
   width: 100%;
   height: 500px;
@@ -34,16 +38,6 @@
   line-height: 40px;
 }
 
-/* .main-start-button {
-  font-size: 30px;
-  color: white;
-
-  padding: 10px;
-
-  background-color: transparent;
-  border: 1px solid white;
-} */
-
 .main-button {
   padding: 15px;
   font-size: 20px;
@@ -62,29 +56,39 @@
 }
 
 /* 
-==============================================
-                    sub
-==============================================
-*/
+  ==============================================
+                      explain-box
+  ==============================================
+  */
 
-.sub-box {
-  color: black;
+.explain-box {
   background-color: #dddddd;
-  width: 500px;
   padding: 25px;
 
+  text-align: center;
+
   position: relative;
-  top: 100px;
-  right: 0;
-  left: 0;
+  top: -40px;
   margin: auto;
+
+  width: 80%;
+  max-width: 500px;
+
+  box-sizing: border-box;
 }
 
-.sub-box  h3 {
+.sub-box h3 {
   margin-bottom: 30px;
 }
 
-.sub-box  p {
+.sub-box p {
   font-size: 13px;
   line-height: 23px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
 }

@@ -1,0 +1,71 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+div,
+input,
+textarea,
+button,
+form {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 8px;
+}
+.container {
+  white: 100vw;
+  height: 100vh;
+  background-color: black;
+
+  display: flex;
+  align-items: center;
+}
+.whiteBackground {
+  background-color: white;
+  width: 500px;
+  padding: 50px;
+
+  margin: auto;
+}
+.box {
+  margin: 10px 0px;
+}
+
+.inputbox {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.firstName-box {
+  float: left;
+}
+
+.lastName-box {
+  float: right;
+}
+
+input[type="checkbox"] {
+  float: left;
+
+  position: relative;
+  top: 5px;
+}
+
+button {
+  width: 25%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  float: right;
+
+  background-color: #ffc000;
+  color: white;
+
+  border: none;
+}

@@ -1,0 +1,174 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+div,
+input,
+textarea,
+button,
+form {
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 8px;
+}
+/* 
+  ==============================================
+                      main 
+  ==============================================
+  */
+.main-background {
+  width: 100%;
+  height: 500px;
+
+  background-image: url(../../../img/backgroundImg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  text-align: center;
+  padding: 1px;
+
+  color: white;
+  position: relative;
+}
+
+.main-title {
+  font-size: 40px;
+  margin-top: 200px;
+}
+
+.main-subTitle {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.main-button {
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+
+  position: absolute;
+  top: 63%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 150px;
+}
+
+/* 
+    ==============================================
+                        explain-box
+    ==============================================
+    */
+
+.explain-box {
+  background-color: #dddddd;
+  padding: 25px;
+
+  text-align: center;
+
+  position: relative;
+  top: -40px;
+  margin: auto;
+
+  width: 80%;
+  max-width: 500px;
+
+  box-sizing: border-box;
+}
+
+.sub-box h3 {
+  margin-bottom: 30px;
+}
+
+.sub-box p {
+  font-size: 13px;
+  line-height: 23px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* 
+    ==============================================
+                      Contact us
+    ==============================================
+    */
+
+.form-background {
+  padding: 30px;
+  background-color: black;
+}
+
+.form-white {
+  background-color: white;
+
+  //width를 %를 하고 max-width를 설정하면 반응형처럼 구현 가능!!
+  width: 80%;
+  max-width: 600px;
+  padding: 30px;
+
+  margin: auto;
+}
+
+.form-title {
+  margin-bottom: 30px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.box {
+  margin: 10px 0px;
+}
+
+.inputbox {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+}
+.w-100 {
+  width: 100%;
+  padding: 10px;
+}
+.w-50 {
+  width: 50%;
+  float: left;
+
+  padding: 10px;
+}
+
+input[type="checkbox"] {
+  float: left;
+
+  position: relative;
+  top: 5px;
+}
+
+.yellow-button {
+  width: 25%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  float: right;
+
+  background-color: #ffc000;
+  color: white;
+
+  border: none;
+}
